@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/time_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="时间 ：0" />
+    
+    <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:orientation="horizontal" 
+       android:layout_gravity="center_horizontal"
+        >
+       <ImageButton 
+           android:id="@+id/img_00x00"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:background="@drawable/img_xiaoxiong_00x00"
+           android:onClick="onClick"
+           />
+       <ImageButton 
+           android:id="@+id/img_00x01"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+          android:background="@drawable/img_xiaoxiong_00x01"
+          android:onClick="onClick" 
+           />
+       <ImageButton 
+           android:id="@+id/img_00x02"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:background="@drawable/img_xiaoxiong_00x02"
+           android:onClick="onClick"
+           />
+    </LinearLayout>
+    
+    
+        <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:orientation="horizontal" 
+       android:layout_gravity="center_horizontal"
+        >
+       <ImageButton 
+           android:id="@+id/img_01x00"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:background="@drawable/img_xiaoxiong_01x00"
+           android:onClick="onClick"
+           />
+       <ImageButton 
+           android:id="@+id/img_01x01"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+          android:background="@drawable/img_xiaoxiong_01x01"
+          android:onClick="onClick" 
+           />
+       <ImageButton 
+           android:id="@+id/img_01x02"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:background="@drawable/img_xiaoxiong_01x02"
+           android:onClick="onClick"
+           />
+    </LinearLayout>
+        <LinearLayout 
+       android:layout_height="wrap_content"
+       android:layout_width="wrap_content"
+       android:orientation="horizontal" 
+       android:layout_gravity="center_horizontal"
+        >
+       <ImageButton 
+           android:id="@+id/img_02x00"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:background="@drawable/img_xiaoxiong_02x00"
+           android:onClick="onClick"
+           />
+       <ImageButton 
+           android:id="@+id/img_02x01"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+          android:background="@drawable/img_xiaoxiong_02x01"
+          android:onClick="onClick" 
+           />
+       <ImageButton 
+           android:id="@+id/img_02x02"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:background="@drawable/img_xiaoxiong_02x02"
+           android:onClick="onClick"
+           android:visibility="invisible"
+           />
+    </LinearLayout>
+    
+    <Button 
+        android:id="@+id/restart"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="重新开始"
+        android:onClick="Restart"
+        android:layout_gravity="center_horizontal"
+        
+        />
+    <ImageView 
+         android:id="@+id/yangtuimg"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/yangtu"
+         android:layout_gravity="center_horizontal"
+        />
+    
+
+    
+    
+</LinearLayout>
